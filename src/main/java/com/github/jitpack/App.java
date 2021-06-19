@@ -1,17 +1,22 @@
-package com.github.jitpack;
+package com.mycompany.app;
 
 /**
  * Hello world!
- *
  */
-public class App 
+public class App
 {
-    public static void main(String[] args)
-    {
-        System.out.println(new App().greet("world"));
+
+    private final String message = "Hello World!";
+
+    public App() {}
+
+    public static void main(String[] args) {
+        System.out.println(new App().getMessage());
     }
 
-    public String greet(String name) {
-        return "Hello " + name;
+    private final String getMessage() {
+        return message;
     }
+
 }
+
