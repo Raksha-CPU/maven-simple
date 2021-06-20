@@ -10,7 +10,7 @@ public class AppTest
     App app = new App();
 
     @Test
-    public void testApp()
+    public void ()
     {
         assertEquals("Hello world", app.greet("world"));
     }
@@ -20,4 +20,5 @@ public class AppTest
     {
         assertTrue( true );
     }
+}
 
