@@ -10,7 +10,7 @@ public class AppTest
     App app = new App();
 
     @Test
-    public void ()
+    public void testapp ()
     {
         assertEquals("Hello world", app.greet("world"));
     }
